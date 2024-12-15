@@ -1,0 +1,28 @@
+2024-12-14 22:28:38,793 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 22:28:38,793 - INFO - Iniciando conexion a la base de datos transaccional de MySQL
+2024-12-14 22:28:38,813 - INFO - Conexion a base de datos db_movies_netflix_transact fue exitosa
+2024-12-14 22:28:38,813 - INFO - Iniciando lectura y transdormacion de datos
+2024-12-14 22:28:38,818 - INFO - Archivo ./data/Awards_movie.csv leido correctamente
+2024-12-14 22:28:38,821 - ERROR - Error al obtener los datos de la base de datos: read_sql() got an unexpected keyword argument 'query'
+2024-12-14 22:29:38,545 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 22:29:38,545 - INFO - Iniciando conexion a la base de datos transaccional de MySQL
+2024-12-14 22:29:38,565 - INFO - Conexion a base de datos db_movies_netflix_transact fue exitosa
+2024-12-14 22:29:38,566 - INFO - Iniciando lectura y transformacion de datos
+2024-12-14 22:29:38,569 - INFO - Archivo ./data/Awards_movie.csv leido correctamente
+2024-12-14 22:29:38,604 - INFO - Se obtiene exitosamente los datos del query del archivo config.py
+2024-12-14 22:29:38,605 - INFO - El id movieID no existen en el campo movieID de la tabla a validad
+2024-12-14 22:31:15,315 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 22:31:15,316 - INFO - Iniciando conexion a la base de datos transaccional de MySQL
+2024-12-14 22:31:15,339 - INFO - Conexion a base de datos db_movies_netflix_transact fue exitosa
+2024-12-14 22:31:15,339 - INFO - Iniciando lectura y transformacion de datos
+2024-12-14 22:31:15,341 - INFO - Archivo ./data/Awards_movie.csv leido correctamente
+2024-12-14 22:31:15,360 - INFO - Se obtiene exitosamente los datos del query del archivo config.py
+2024-12-14 22:31:15,364 - INFO - Archivo ./data/users.csv leido correctamente
+2024-12-14 22:31:15,366 - INFO - Terminada la lectura y tranformacion de data
+2024-12-14 22:31:15,366 - INFO - Iniciando conexion a la Data Warehouse de MySQL
+2024-12-14 22:31:15,366 - INFO - Conexion a base de datos dw_netflix fue exitosa
+2024-12-14 22:31:15,387 - INFO - Se cargo correctamente la informacion a la tabla dimMovie
+2024-12-14 22:31:15,395 - INFO - Se cargo correctamente la informacion a la tabla dimUser
+2024-12-14 22:31:15,403 - INFO - Se cargo correctamente la informacion a la tabla FactWatchs
+2024-12-14 22:31:15,403 - INFO - Terminada la carga de datos a la Data Warehouse de MySQL
+2024-12-14 22:31:15,403 - INFO - Pipeline de datos se ejecuto correctamente

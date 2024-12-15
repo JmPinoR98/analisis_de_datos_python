@@ -144,8 +144,8 @@ def load_data(engine, table_name, df):
 
 if __name__ == '__main__':
     
-    # Crear la conexion a la base de datos MySQL
     logging.info("Iniciando ejecucion de Pipeline")
+    # Crear la conexion a la base de datos MySQL
     logging.info("Iniciando conexion a la base de datos de MySQL")
     engine = create_db_engine(DATABASE_CONFIG)
     

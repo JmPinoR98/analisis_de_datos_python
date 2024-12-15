@@ -156,3 +156,23 @@ DROP TABLE orders]
 2024-12-14 20:22:29,572 - INFO - Se cargo correctamente la informacion a la tabla order_items
 2024-12-14 20:22:29,572 - INFO - Terminada la carga de datos a la base de datos de MySQL
 2024-12-14 20:22:29,573 - INFO - Pipeline de datos se ejecuto correctamente
+2024-12-14 20:46:11,991 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:46:11,991 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:46:12,013 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:46:12,013 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:46:12,017 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:46:12,027 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:46:12,031 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:46:12,052 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:46:12,064 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:46:12,111 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:46:12,124 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:46:12,124 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:46:12,144 - INFO - Se cargo correctamente la informacion a la tabla departments
+2024-12-14 20:46:12,151 - INFO - Se cargo correctamente la informacion a la tabla categories
+2024-12-14 20:46:12,418 - INFO - Se cargo correctamente la informacion a la tabla customers
+2024-12-14 20:46:12,469 - INFO - Se cargo correctamente la informacion a la tabla products
+2024-12-14 20:46:13,722 - INFO - Se cargo correctamente la informacion a la tabla orders
+2024-12-14 20:46:16,652 - INFO - Se cargo correctamente la informacion a la tabla order_items
+2024-12-14 20:46:16,652 - INFO - Terminada la carga de datos a la base de datos de MySQL
+2024-12-14 20:46:16,652 - INFO - Pipeline de datos se ejecuto correctamente
