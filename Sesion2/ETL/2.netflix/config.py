@@ -5,14 +5,14 @@ DATABASE_CONFIG = {
         "host": socket.gethostbyname(socket.gethostname()),
         "port": 3310,
         "user": "root",
-        "password": "root",
+        "password": "<password>",
         "database": "db_movies_netflix_transact"
     },
     "warehouse": {
         "host": socket.gethostbyname(socket.gethostname()),
         "port": 3310,
         "user": "root",
-        "password": "root",
+        "password": "<password>",
         "database": "dw_netflix"
     }
 }

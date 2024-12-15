@@ -4,7 +4,7 @@ DATABASE_CONFIG = {
     "host": socket.gethostbyname(socket.gethostname()),
     "port": 3310,
     "user": "root",
-    "password": "root",
+    "password": "<password>",
     "database": "retail_db"
 }
 
