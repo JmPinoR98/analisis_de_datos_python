@@ -1,0 +1,158 @@
+2024-12-14 20:14:08,486 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:14:08,486 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:14:08,507 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:14:08,507 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:14:08,509 - ERROR - Error al leer el archivo data_retail/categories: [Errno 2] No such file or directory: 'data_retail/categories'
+2024-12-14 20:14:42,896 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:14:42,898 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:14:42,916 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:14:42,917 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:14:42,918 - ERROR - Error al leer el archivo ./data_retail/categories: [Errno 2] No such file or directory: './data_retail/categories'
+2024-12-14 20:15:21,939 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:15:21,939 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:15:21,956 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:15:21,956 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:15:21,969 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:15:21,987 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:15:21,997 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:15:22,026 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:15:22,053 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:15:22,103 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:15:22,113 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:15:22,114 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:15:22,176 - ERROR - Error a la hora de cargar datos a la tabla categories: (MySQLdb.OperationalError) (3730, "Cannot drop table 'categories' referenced by a foreign key constraint 'fk_product_category_id' on table 'products'.")
+[SQL: 
+DROP TABLE categories]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:16:40,502 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:16:40,502 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:16:40,519 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:16:40,519 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:16:40,521 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:16:40,531 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:16:40,534 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:16:40,555 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:16:40,565 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:16:40,610 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:16:40,621 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:16:40,621 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:16:40,648 - ERROR - Error a la hora de cargar datos a la tabla departments: (MySQLdb.OperationalError) (3730, "Cannot drop table 'departments' referenced by a foreign key constraint 'fk_category_department_id' on table 'categories'.")
+[SQL: 
+DROP TABLE departments]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:18:27,304 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:18:27,305 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:18:27,323 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:18:27,323 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:18:27,326 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:18:27,336 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:18:27,347 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:18:27,369 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:18:27,379 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:18:27,424 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:18:27,435 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:18:27,436 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:18:27,463 - ERROR - Error a la hora de cargar datos a la tabla departments: (MySQLdb.OperationalError) (3730, "Cannot drop table 'departments' referenced by a foreign key constraint 'fk_category_department_id' on table 'categories'.")
+[SQL: 
+DROP TABLE departments]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:19:08,007 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:19:08,008 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:19:08,026 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:19:08,026 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:19:08,028 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:19:08,039 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:19:08,042 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:19:08,062 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:19:08,072 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:19:08,119 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:19:08,130 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:19:08,130 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:19:08,157 - ERROR - Error a la hora de cargar datos a la tabla departments: (MySQLdb.OperationalError) (3730, "Cannot drop table 'departments' referenced by a foreign key constraint 'fk_category_department_id' on table 'categories'.")
+[SQL: 
+DROP TABLE departments]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:19:41,006 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:19:41,006 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:19:41,025 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:19:41,025 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:19:41,028 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:19:41,038 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:19:41,041 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:19:41,063 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:19:41,075 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:19:41,121 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:19:41,132 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:19:41,132 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:19:41,161 - ERROR - Error a la hora de cargar datos a la tabla categories: (MySQLdb.OperationalError) (3730, "Cannot drop table 'categories' referenced by a foreign key constraint 'fk_product_category_id' on table 'products'.")
+[SQL: 
+DROP TABLE categories]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:20:07,832 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:20:07,832 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:20:07,851 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:20:07,851 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:20:07,853 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:20:07,862 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:20:07,865 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:20:07,885 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:20:07,896 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:20:07,942 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:20:07,954 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:20:07,954 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:20:07,984 - ERROR - Error a la hora de cargar datos a la tabla products: (MySQLdb.OperationalError) (3730, "Cannot drop table 'products' referenced by a foreign key constraint 'fk_order_item_product_id' on table 'order_items'.")
+[SQL: 
+DROP TABLE products]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:20:31,946 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:20:31,947 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:20:31,964 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:20:31,965 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:20:31,967 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:20:31,976 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:20:31,979 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:20:32,001 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:20:32,012 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:20:32,057 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:20:32,069 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:20:32,069 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:20:32,097 - ERROR - Error a la hora de cargar datos a la tabla orders: (MySQLdb.OperationalError) (3730, "Cannot drop table 'orders' referenced by a foreign key constraint 'fk_order_item_order_id' on table 'order_items'.")
+[SQL: 
+DROP TABLE orders]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-14 20:21:54,981 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:21:54,982 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:21:55,000 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:21:55,000 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:21:55,003 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:21:55,013 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:21:55,017 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:21:55,038 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:21:55,048 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:21:55,090 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:21:55,101 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:21:55,102 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:21:55,296 - ERROR - Error a la hora de cargar datos a la tabla orders: (MySQLdb.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`retail_db`.`orders`, CONSTRAINT `fk_order_customer_id` FOREIGN KEY (`order_customer_id`) REFERENCES `customers` (`customer_id`))')
+[SQL: INSERT INTO orders (order_id, order_date, order_customer_id, order_status) VALUES (%s, %s, %s, %s)]
+[parameters: [(1, datetime.datetime(2013, 7, 25, 0, 0), 11599, 'CLOSED'), (2, datetime.datetime(2013, 7, 25, 0, 0), 256, 'PENDING_PAYMENT'), (3, datetime.datetime(2013, 7, 25, 0, 0), 12111, 'COMPLETE'), (4, datetime.datetime(2013, 7, 25, 0, 0), 8827, 'CLOSED'), (5, datetime.datetime(2013, 7, 25, 0, 0), 11318, 'COMPLETE'), (6, datetime.datetime(2013, 7, 25, 0, 0), 7130, 'COMPLETE'), (7, datetime.datetime(2013, 7, 25, 0, 0), 4530, 'COMPLETE'), (8, datetime.datetime(2013, 7, 25, 0, 0), 2911, 'PROCESSING')  ... displaying 10 of 68883 total bound parameter sets ...  (68882, datetime.datetime(2014, 7, 22, 0, 0), 10000, 'ON_HOLD'), (68883, datetime.datetime(2014, 7, 23, 0, 0), 5533, 'COMPLETE')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-14 20:22:24,664 - INFO - Iniciando ejecucion de Pipeline
+2024-12-14 20:22:24,665 - INFO - Iniciando conexion a la base de datos de MySQL
+2024-12-14 20:22:24,683 - INFO - Conexion a base de datos fue exitosa
+2024-12-14 20:22:24,683 - INFO - Iniciando lectura y validacion de archivos CSV
+2024-12-14 20:22:24,686 - INFO - Archivo ./data/categories leido correctamente
+2024-12-14 20:22:24,695 - INFO - Archivo ./data/customers leido correctamente
+2024-12-14 20:22:24,698 - INFO - Archivo ./data/departments leido correctamente
+2024-12-14 20:22:24,720 - INFO - Archivo ./data/orders leido correctamente
+2024-12-14 20:22:24,730 - INFO - Archivo ./data/products leido correctamente
+2024-12-14 20:22:24,775 - INFO - Archivo ./data/order_items leido correctamente
+2024-12-14 20:22:24,786 - INFO - Terminada la lectura y validacion de archivos CSV
+2024-12-14 20:22:24,786 - INFO - Iniciada la carga de datos a la base de datos de MySQL
+2024-12-14 20:22:24,817 - INFO - Se cargo correctamente la informacion a la tabla departments
+2024-12-14 20:22:24,825 - INFO - Se cargo correctamente la informacion a la tabla categories
+2024-12-14 20:22:25,106 - INFO - Se cargo correctamente la informacion a la tabla customers
+2024-12-14 20:22:25,161 - INFO - Se cargo correctamente la informacion a la tabla products
+2024-12-14 20:22:26,272 - INFO - Se cargo correctamente la informacion a la tabla orders
+2024-12-14 20:22:29,572 - INFO - Se cargo correctamente la informacion a la tabla order_items
+2024-12-14 20:22:29,572 - INFO - Terminada la carga de datos a la base de datos de MySQL
+2024-12-14 20:22:29,573 - INFO - Pipeline de datos se ejecuto correctamente
